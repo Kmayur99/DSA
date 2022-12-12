@@ -14,6 +14,7 @@ class Node{
   }
 };
 
+//Insertion of node at first head
 void InsertAtHead(Node* &head,int data){
   Node* temp=new Node(data);
   temp->next=head;
